@@ -119,7 +119,7 @@ def plot_positions(t, agents, target, ax):
         ax.plot(agent.pos[0], agent.pos[1], 'bo')
     ax.plot(target.pos[0], target.pos[1], 'ro', markersize=12)  # Larger marker size for target
     ax.set_title(f'Time step: {t}')
-    plt.pause(0.01)
+    plt.pause(0.03)
 
 if __name__ == "__main__":
     run_simulation()
